@@ -1,7 +1,7 @@
 // Require NPM Packages
 var express = require("express");
 var exphbs = require("express-handlebars");
-var routes = require("./controllers/burgers_controller")
+var routes = require("./controllers/burgers_controllers")
 
 // App setup
 var PORT = process.env.PORT || 8080;
